@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>BOX TEAM - Разработка сайтов для детей</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="glav.html"><img style="height: 95px; width: 109px;" src="/картинки к/куб лого.jpg" alt="куб лого" class="logo__image"></a>
+                <div class="logo__text" >
+                    <a href="glav.html"><h1>BOX TEAM</h1></a>
+                    <p>онлайн школа для детей и подростков</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="kursi.html">Наши курсы</a></li>
+                    <li><a href="onas.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#trial" class="button button--1" id="galvbot">Запись на пробное занятие</a>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Форма заявки</h2>
+                <form id="applicationForm">
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="phone">Номер:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    <label for="email">Почта:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div>
+                    <div>
+                        <h2 class="hero__title">Разработка сайтов</h2>
+                        <div class="hero__tags">
+                            <div class="tag">для детей</div>
+                            <div class="tag">от 7 до 16 лет</div>
+                        </div>
+                    </div>
+                    <button class="button--3" id="herotext">Узнайте подробнее на пробном занятии</button>
+                </div>
+                <div class="hero__image">
+                    <img style="height: 300px; width: 350px;" src="/картинки к/компьютер.png" alt="HTML и CSS" class="hero__code-image">
+                    <img style="height: 300px; width: 350px;" src="/картинки к/челоноут1.png" alt="Ребенок за компьютером" class="hero__child-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="program">
+            <div class="container">
+                <h2 class="section-title">Описание программы обучения</h2>
+                <div class="program__cards">
+                    <div class="card">
+                        <h3 class="card__title">Что такое веб-разработка?</h3>
+                        <p class="card__text">Веб-разработка — это процесс создания и поддержания веб-сайтов и веб-приложений. Все сайты и веб-приложения состоят из двух частей: frontend и backend. На нашем направлении разработки сайтов ученики будут изучать frontend. Это языки разметки HTML и CSS, отвечающие за позиционирование и оформление элементов.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">Цель программы</h3>
+                        <p class="card__text">Цель веб-разработки заключается в создании удобных и доступных онлайн-ресурсов для пользователей. Это помогает бизнесам привлекать клиентов, предоставлять информацию и продавать товары или услуги через интернет.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">Результат освоения курса</h3>
+                        <p class="card__text">По итогу занятий ученик создаст порядка 3-4 собственных сайтов. Изучит все ключевые этапы разработки (дизайн, верстка, программирование, публикация на хостинг). Будет понимать, какие сайты существуют и когда, какой тип сайта будет уместнее.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Soft Skills, которые обретут ученики:</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-card_number-icon">
+                            <div class="skill-card__number">1</div>
+                            <img src="/картинки к/мозги.png" alt="Мозг" class="skill-card__icon">
+                        </div>
+                        <p class="skill-card__text">Умение задавать конструктивные вопросы</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card_number-icon">
+                            <div class="skill-card__number">2</div>
+                            <img src="/картинки к/гитара.png" alt="Гитара" class="skill-card__icon">
+                        </div>
+                        <p class="skill-card__text">Развитие творческого потенциала</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card_number-icon">
+                            <div class="skill-card__number">3</div>
+                            <img src="/картинки к/мишень.png" alt="Мишень" class="skill-card__icon">
+                        </div>
+                        <p class="skill-card__text">Умение искать и находить решение проблемы</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card_number-icon">
+                            <div class="skill-card__number">4</div>
+                            <img src="/картинки к/поделиться.png" alt="Общение" class="skill-card__icon">
+                        </div>
+                        <p class="skill-card__text">Умение правильно излагать мысли</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card_number-icon">
+                            <div class="skill-card__number">5</div>
+                            <img src="/картинки к/ошибка.png" alt="Ошибка" class="skill-card__icon">
+                            </div>
+                        <p class="skill-card__text">Умение ошибаться и принимать свои ошибки</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curriculum">
+            <div class="container">
+                <h2 class="section-title">HTML и CSS</h2>
+                <p class="section-subtitle">Программа обучения:</p>
+                <div class="curriculum__grid">
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">1</div>
+                        <p>Изучение основных структурных единиц сайта</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">2</div>
+                        <p>Освоение принципа работы с кодом в VS code</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">3</div>
+                        <p>Практическое применение основных тегов HTML</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">4</div>
+                        <p>Перенос свойств макета в CSS-свойства сайта при верстке сайта по макету</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">5</div>
+                        <p>Создание отдельных css-файлов и подключение их к CSS-документу</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">6</div>
+                        <p>Осуществление верстки сайта блоками и описание их оформления с помощью CSS</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">7</div>
+                        <p>Освоение базовых инструментов прототипирования и дизайна</p>
+                    </div>
+                    <div class="curriculum__item">
+                        <div class="curriculum__number">8</div>
+                        <p>Размещение файлов в Интернете с помощью встроенного загрузчика на бесплатном хостинге</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hard-skills">
+            <div class="container">
+                <h2 class="section-title">Hard Skills, которые обретут ученики:</h2>
+                <div class="hard-skills__grid">
+                    <div class="hard-skill-card">
+                        <div class="hard-skill-card_number-icon">
+                            <div class="hard-skill-card__number">1</div>
+                            <img src="/картинки к/laptop.png" alt="Ноутбук" class="hard-skill-card__icon">
+                        </div>
+                        <p class="hard-card__text">Знание и понимание основных этапов создания сайтов</p>
+                    </div>
+                    <div class="hard-skill-card">
+                        <div class="hard-skill-card_number-icon">
+                            <div class="hard-skill-card__number">2</div>
+                            <img src="/картинки к/хэштег.png" alt="Код" class="hard-skill-card__icon">
+                            </div>
+                        <p>Знание основных тегов для создания сайта по принципу блочной верстки</p>
+                    </div>
+                    <div class="hard-skill-card">
+                        <div class="hard-skill-card_number-icon">
+                            <div class="hard-skill-card__number">3</div>
+                            <img src="/картинки к/метр.png" alt="Дизайн" class="hard-skill-card__icon">
+                        </div>
+                        <p>Знание основных принципов выравнивания и оформления элементов сайта</p>
+                    </div>
+                    <div class="hard-skill-card">
+                        <div class="hard-skill-card_number-icon">
+                            <div class="hard-skill-card__number">4</div>
+                            <img src="/картинки к/молоток.png" alt="Проект" class="hard-skill-card__icon">
+                        </div>
+                        <p>Умение работать над собственным проектом</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration" id="target">
+            <div class="container registration__container">
+                <div class="registration__content">
+                    <h2 class="registration__title">Записывайтесь на пробное занятие и узнавайте новое!</h2>
+                </div>
+                <div><form class="registration-form" id="registrationForm">
+                    <input type="text" placeholder="Имя" required class="registration-form__input">
+                    <input type="tel" placeholder="Номер" required class="registration-form__input">
+                    <input type="email" placeholder="Почта" required class="registration-form__input">
+                    <button class="button button--2" id="createPopup">Зарегистрироваться</button>
+                </form></div>
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <span id="closeBtn" class="close-button">&times;</span>
+                        <p id="popupMessage"></p>
+                    </div>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="closeBtn" class="close-button">&times;</span>
+                    <p id="popupMessage"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__contacts">
+                <a href="tel:+79194141452" class="footer__contact">+79194141452</a>
+                <a href="mailto:boxteam@gmail.com" class="footer__contact">boxteam@gmail.com</a>
+                <a href="https://vk.com/boxteammsk" class="footer__contact" >наш ВКонтакте</a>
+            </div>
+        </div>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
