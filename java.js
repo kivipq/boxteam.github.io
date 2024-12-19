@@ -69,3 +69,5 @@ document.getElementById('applicationForm').onsubmit = function(event) {
     alert('Форма отправлена!');
     modal.style.display = 'none';
 }
+
+

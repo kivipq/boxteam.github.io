@@ -96,6 +96,7 @@ body {
 .button--1 {
     background-color: var(--color-accent);
     color: rgba(46, 40, 54, 1);
+    cursor: pointer;
 }
 
 .button--2 {

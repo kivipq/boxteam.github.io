@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container header__container">
             <div class="logo">
-                <a href="glav.html"><img style="height: 95px; width: 109px;" src="/картинки к/куб лого.jpg" alt="куб лого" class="logo__image"></a>
+                <a href="glav.html"><img style="height: 95px; width: 109px;" src="/imgs/куб лого.jpg" alt="куб лого" class="logo__image"></a>
                 <div class="logo__text">
                     <a href="glav.html"><h1>BOX TEAM</h1></a>
                     <p>онлайн школа для детей и подростков</p>
@@ -25,7 +25,22 @@
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
-            <a href="#trial" class="button button--1">Запись на пробное занятие</a>
+            <a class="button button--1" id="galvbot">Запись на пробное занятие</a>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Форма заявки</h2>
+                <form id="applicationForm">
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="phone">Номер:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    <label for="email">Почта:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
         </div>
     </header>
     <main>
@@ -41,5 +56,6 @@
             </div>
         </div>
     </footer>
+    <script src="onas.js"></script>
 </body>
 </html>
