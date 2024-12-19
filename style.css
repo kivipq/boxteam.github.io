@@ -373,42 +373,6 @@ body {
     line-height: 21px;
 }
 
-/* Responsive Design
-@media (max-width: 1200px) {
-    .container {
-        padding: 0 30px;
-    }
-
-    .program__cards,
-    .skills-grid,
-    .curriculum__grid,
-    .hard-skills__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
-
-/* @media (max-width: 768px) {
-    .header__container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .hero__container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .program__cards,
-    .skills-grid,
-    .curriculum__grid,
-    .hard-skills__grid {
-        grid-template-columns: 1fr;
-    }
-
-    .registration__container {
-        grid-template-columns: 1fr;
-    }
-} */
 .kursi{
     align-items: center;
 }
